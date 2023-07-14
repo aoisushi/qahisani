@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <title>Hisani | Omakase Restaurant in Vancouver</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC0vkI2p55_XV_7Y_eQzaGKDwkiqPAqFg&region=ca&callback=initMap">
+    </script>
+</head>
+<body>
+    <div class="bg-wrapper">
+    <header>
+        <nav class="navbar is-flex">
+            <!-- Company Logo -->
+            <a class="logo" href="#"><img src="images/logo.svg" width="90"></a>
+    
+            <!-- menu -->
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+                
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+   
+    <main>
+        <!-- Main Hero Section -->
+        <section class="hero_section">
+            <div class="hero_logo"><img src="images/logo_white.svg"></div>
+            <div class="hero_content">
+                <h2>Discover the ultimate Japanese culinary experience with Omakase. Meaning "I leave it up to you", Omakase is a dining tradition where the chef curates a unique and unforgettable menu. Let us take you on a journey of flavors, textures, and artistry that will leave you wanting more.</h2>
+            </div>
+        </section>
+    </div>  <!-- end of the background image -->
+        <!-- Opening hours -->
+        <section id="rev" class="section_divided">
+            <div class="sec_blue_bg">
+                <h2 class="sec_h2">Opening Hour</h2>
+                <div class="is-grid">
+                    <div class="opening_hour">
+                        <p>Tuesday - Friday</p>
+                        <p>3 - 9 PM</p>
+                    </div>
+                    <div class="opening_hour">
+                        <p>Saturday - Sunday</p>
+                        <p>2 - 9 PM</p>
+                    </div>
+                </div>
+                <div class="center_btn">
+                    <button class="is-btn">Reservation</button>
+                </div>
+            </div>
+        </section>
+        <!-- About Hisani Section -->
+        <section id="about">
+            <div class="about_sec">
+                <h2 class="about_h2">About Hisani</h2>
+                <p class="about_content">At Hisani, we're passionate about bringing the authentic flavors and traditions of Japan to your table. Our expert chefs use only the finest ingredients to create an ever-evolving menu that will transport your senses to the heart of Japan.</p>
+            </div>
+        </section>
+        <!-- Menu section -->
+        <section id="menu">
+            <div class="menu_sec_wrap">
+                <h2 class="sec_h2 is-blue">Menu</h2>
+                <div class="is-grid">
+                    <div class="menu_content">
+                        <img class="circle" src="images/sushi_2.jpg">
+                        <h3 class="sec_h3">Omakase</h3>
+                        <p>A unique and personalized Japanese dining experience curated by expert chefs.</p>
+                    </div>
+                    <div class="menu_content">
+                        <img class="circle" src="images/sushi.jpg">
+                        <h3 class="sec_h3">Sushi</h3>
+                        <p>A Japanese dish made of vinegar rice, seafood, and vegetables, served fresh or seasoned.</p>
+                    </div>
+                    <div class="menu_content">
+                        <img class="circle" src="images/nabe.jpg">
+                        <h3 class="sec_h3">Nabe</h3>
+                        <p>A Japanese hot pot dish made with various ingredients, cooked and served in a communal pot.</p>
+                    </div>
+                    <div class="menu_content">
+                        <img class="circle" src="images/sashimi_boat.jpg">
+                        <h3 class="sec_h3">Sashimi</h3>
+                        <p>A Japanese dish of raw fish or seafood, expertly sliced and served with soy sauce.</p>
+                    </div>
+                    <div class="menu_content">
+                        <img class="circle" src="images/sake.jpg">
+                        <h3 class="sec_h3">Sake</h3>
+                        <p>A Japanese alcoholic beverage made from fermented rice, with a smooth and distinctive flavor.</p>
+                    </div>
+                    <div class="menu_content">
+                        <img class="circle" src="images/drink.jpg">
+                        <h3 class="sec_h3">Drinks</h3>
+                        <p>A refreshing way to quench your thirst, with endless varieties of flavors and textures to enjoy.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="sec_blue_bg">
+                <h2 class="sec_h2">Reservation</h2>
+            
+                <!-- map -->
+                <div id="map"></div>
+                
+                <div class="contacts">
+                    <h3>Phone</h3>
+                    <p>(604)434-5734</p>
+                </div>
+                <div class="contacts">
+                    <h3>Address</h3>
+                    <p>555 Seymour St, Vancouver, BC V6B 3H6</p>
+                </div>
+                <div class="contacts">
+                    <h3>E-mail</h3>
+                    <p>info@hisani.ca</p>
+                </div>
+                <div class="contacts">
+                    <h3>Tuesday - Friday</h3>
+                    <p>3-9pm</p>
+                </div>
+                <div class="contacts">
+                    <h3>Saturday - Sunday</h3>
+                    <p>2-9pm</p>
+                </div>
+                <div class="center_btn"><button class="is-btn">Reservation</button></div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="sm_center is-flex">
+            <a href="#"><ion-icon size="large" name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon size="large" name="logo-facebook"></ion-icon></a>
+        </div>
+        <p>copyright all rights reserved &copy; Kylie Chan @ 2023</p>
+    </footer>
+    <script src="script/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
