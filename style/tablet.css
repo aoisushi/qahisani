@@ -1,0 +1,40 @@
+/* =========== Tablet Media Query =========== */
+@media only screen and (min-width: 768px) {
+
+    /* body {
+        background-color: #5f6875;
+    } */
+
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        
+    }
+
+    .nav-menu {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 60px;
+        transition: 0.3s ease-in-out;
+        background: none;
+    }
+
+
+    .photos {
+        width: 320px;
+        height: 200px;
+        object-fit: cover;
+        grid-column: auto / span 10;
+    }
+
+    .menu_content {
+        grid-column: auto / span 6;
+    }
+
+}

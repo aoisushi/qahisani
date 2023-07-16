@@ -1,0 +1,17 @@
+/* =========== Desktop Media Query =========== */
+@media only screen and (min-width: 1080px) {
+    /* body {
+        background-color: #78a4e1;
+    } */
+    .menu_content {
+        grid-column: auto / span 4;
+        margin: auto;
+    }
+
+    .circle {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
