@@ -9,30 +9,27 @@
 <?php require('partials/global/head.php'); ?>
 
 <body>
-    <div class="bg-wrapper">
-    
+
     <!-- Header -->
     <?php require('partials/global/header.php'); ?>
    
     <main>
 
-        <!-- Main Hero Section -->
+        <!-- Hero Section -->
         <?php require('partials/home/hero.php'); ?>
 
-    </div>  <!-- end of the background image -->
-
-        <!-- Opening hours/reservations -->
-        <?php require('partials/home/reservations.php'); ?>
-
-        <!-- About Hisani Section -->
+        <!-- About Section -->
         <?php require('partials/home/about.php'); ?>
 
-        <!-- Menu section -->
+        <!-- Menu Section -->
         <?php require('partials/home/menu.php'); ?>
 
-        <!-- Contact Section -->
-        <?php require('partials/home/contact.php'); ?>
-        
+        <!-- Reservation Btn -->
+        <?php require('partials/home/reservation-btn.php'); ?>
+
+        <!-- Gallery Section -->
+        <?php require('partials/home/gallery.php'); ?>
+
     </main>
     
     <!-- Footer -->

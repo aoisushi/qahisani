@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style/reset.css">
     <title>Hisani | Omakase Restaurant in Vancouver</title>
     <link rel="stylesheet" href="style/main.css">
-    <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC0vkI2p55_XV_7Y_eQzaGKDwkiqPAqFg&region=ca&callback=initMap">
-    </script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <?php require(get_path('public/partials/global/tailwind.php')); ?>
 </head>
