@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --red: #D63241;
+    --black: #191919;
+    --white: #FBFBFB;
+    --lora: 'Lora', serif;
+    --nunito: 'Nunito', sans-serif;
+    --regular: 400;
+    --bold: 700;
+}
+
+* {
+    margin: auto;
+}
+
+/* mobile media q */
+h1, .h1 {
+    font-size: 28px;
+    font-family: var(--lora);
+    font-weight: var(--bold);
+}
+
+h2, .h2 {
+    font-size: 34px;
+    font-family: var(--lora);
+    font-weight: var(--bold);
+}
+
+h3, .h3 {
+    font-size: 24px;
+    font-family: var(--nunito);
+    font-weight: var(--bold); 
+}
+
+h4, .h4 {
+    font-size: 24px;
+    font-family: var(--lora);
+    font-weight: var(--bold); 
+}
+/* p = body (regular) */
+p, .p {
+    font-size: 17px;
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+}
+
+
+/* tablet + desktop media q */
+@media (min-width: 768px) {
+
+    h1, .h1 {
+        font-size: 34px;
+        font-family: var(--lora);
+        font-weight: var(--bold); 
+    }
+    
+    h2, .h2 {
+        font-size: 60px;
+        font-family: var(--lora);
+        font-weight:  var(--bold); 
+    }
+    
+    h3, .h3 {
+        font-size: 30px;
+        font-family: var(--nunito);
+        font-weight: var(--bold); 
+    }
+    
+    h4, .h4 {
+        font-size: 28px;
+        font-family: var(--lora);
+        font-weight: var(--bold); 
+    }
+    /* p = body (regular) */
+    p, .p {
+        font-size: 24px;
+        font-family: var(--nunito);
+        font-weight: var(--regular);
+    }
+
+}
