@@ -1,24 +1,26 @@
-<div>
+<div class="col-span-4 lg:col-start-8 lg:col-span-5 mb-10">
     <form action="<?php echo get_public_url('/reservations.php'); ?>" method="POST">
-        <div>
-            <label for="first_name"></label>
-            <input id="first_name" type="text" name="first_name" placeholder="First Name" required>
+        <div class="flex flex-col lg:flex-row gap-0 lg:gap-4 justify-center items-center">
+            <div class="w-full mb-4 lg:mt-5">
+                <label for="first_name"></label>
+                <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="first_name" type="text" name="first_name" placeholder="First Name" required>
+            </div>
+            <div class="w-full mb-4 lg:mt-5">
+                <label for="last_name"></label>
+                <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="last_name" type="text" name="last_name" placeholder="Last Name" required>
+            </div>
         </div>
-        <div>
-            <label for="last_name"></label>
-            <input id="last_name" type="text" name="last_name" placeholder="Last Name" required>
-        </div>
-        <div>
+        <div class="w-full mb-4">
             <label for="phone_number"></label>
-            <input id="phone_number" type="tel" name="phone_number" placeholder="Enter Phone Number" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="phone_number" type="tel" name="phone_number" placeholder="Enter Phone Number" required>
         </div>
-        <div>
+        <div class="w-full mb-4">
             <label for="email"></label>
-            <input id="email" type="email" name="email" placeholder="Enter Email Address" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="email" type="email" name="email" placeholder="Enter Email Address" required>
         </div>
-        <div>
+        <div class="w-full mb-4">
             <label for="party_size"></label>
-            <select name="party_size" id="party_size" required>
+            <select class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F] appearance-none" name="party_size" id="party_size" required>
                 <option value="">Select Party Size</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -36,20 +38,19 @@
                 <option value="14">14</option>
                 <option value="15">15</option>
             </select>
-            <!-- <input id="party_size" type="number" name="party_size" min="1" max="15" step="1" value="1" placeholder="Select Party Size" required> -->
         </div>
-        <div>
+        <div class="w-full mb-4">
             <label for="reservation_date"></label>
-            <input id="reservation_date" type="date" min="<?= date('Y-m-d'); ?>" max="2023-12-31" name="reservation_date" placeholder="Select Date" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="reservation_date" type="date" min="<?= date('Y-m-d'); ?>" max="2023-12-31" name="reservation_date" placeholder="Select Date" required>
         </div>
-        <div>
+        <div class="w-full mb-4">
             <label for="reservation_time"></label>
-            <input id="reservation_time" type="time" min="15:00" max="21:00" name="reservation_time" placeholder="Select Time" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="reservation_time" type="time" min="15:00" max="21:00" name="reservation_time" placeholder="Select Time" required>
         </div>
-        <div>
+        <div class="w-full mb-4">
             <label for="special_request"></label>
-            <input id="special_request" type="textarea" name="special_request" maxlength="300" placeholder="Special Request (Optional)">
+            <textarea class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="special_request" type="textarea" name="special_request" maxlength="300" placeholder="Special Request (Optional)"></textarea>
         </div>
-        <button type="submit">RESERVE A TABLE</button>
+        <button class="p w-full py-6 px-4 bg-red mb-4 text-white font-bold hover:opacity-60 transition transition-all duration-500" type="submit">RESERVE A TABLE</button>
     </form>
     </div>

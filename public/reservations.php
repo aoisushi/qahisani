@@ -26,10 +26,20 @@
     <!-- Header -->
     <?php require('partials/global/header.php'); ?>
    
-    <main>
+    <main class="bg-gradient-to-tl from-black to-[#505050]">
 
-        <!-- Reservation Form -->
-        <?php require('partials/reservations/form.php'); ?>
+        <div class="max-w-screen-2xl mx-auto px-5 md:px-16">
+            <div class="grid grid-cols-4 lg:grid-cols-12 pt-10 lg:py-56">
+                <div class="col-span-4 lg:col-span-6">
+                    <h1 class="h2 text-white mb-10 lg:mt-5">Reservation</h1>
+                    <p class="p text-white mb-10">Reserving your table at Hisani is as effortless as indulging in our delectable dishes. To ensure your preferred dining time, we encourage you to make a reservation in advance.</p>
+                    <p class="p text-white mb-10">Whether you're planning an intimate dinner for two or arranging a gathering of friends and family, our team is dedicated to accommodating your needs and preferences. </p>
+                    <p class="h3 text-white italic mb-10">Experience the artistry of our master chefs, the elegant ambiance, and impeccable service by reserving your table now. </p>
+                </div>
+                <!-- Reservation Form -->
+                <?php require('partials/reservations/form.php'); ?>
+            </div>
+        </div>
 
     </main>
     
