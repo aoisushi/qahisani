@@ -26,7 +26,7 @@
     <!-- Header -->
     <?php require('partials/global/header.php'); ?>
    
-    <main class="bg-gradient-to-tl from-black to-[#505050]">
+    <main class="bg-gradient-to-tl from-black from-40% to-[#505050]">
 
         <div class="max-w-screen-2xl mx-auto px-5 md:px-16">
             <div class="grid grid-cols-4 lg:grid-cols-12 pt-10 lg:py-56">
