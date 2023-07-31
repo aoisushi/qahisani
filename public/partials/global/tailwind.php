@@ -38,6 +38,14 @@
                     // body-extra-small (desktop footer)
                     mdfootertext: '16px',
                 },
+                spacing: {
+                    '400': '400px',
+                    '440': '440px',
+                    '500': '500px',
+                },
+                backgroundImage: {
+                    'menu-card': "url('images/menucard.svg')",
+                },
             }
         }
     }
