@@ -6,6 +6,7 @@
                 red: 'var(--red)',
                 black: 'var(--black)',
                 white: 'var(--white)',
+                gray: 'var(--gray)',
                 },
                 fontFamily: {
                     'lora': ['Lora', 'serif'],

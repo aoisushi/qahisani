@@ -12,15 +12,15 @@
         </div>
         <div class="w-full mb-4">
             <label for="phone_number"></label>
-            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="phone_number" type="tel" name="phone_number" placeholder="Enter Phone Number" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="phone_number" type="tel" name="phone_number" placeholder="Enter Phone Number" required>
         </div>
         <div class="w-full mb-4">
             <label for="email"></label>
-            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="email" type="email" name="email" placeholder="Enter Email Address" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="email" type="email" name="email" placeholder="Enter Email Address" required>
         </div>
         <div class="w-full mb-4">
             <label for="party_size"></label>
-            <select class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F] appearance-none" name="party_size" id="party_size" required>
+            <select class="p w-full py-5 px-4 outline-none placeholder:text-gray appearance-none" name="party_size" id="party_size" required>
                 <option value="">Select Party Size</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -41,15 +41,15 @@
         </div>
         <div class="w-full mb-4">
             <label for="reservation_date"></label>
-            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="reservation_date" type="date" min="<?= date('Y-m-d'); ?>" max="2023-12-31" name="reservation_date" placeholder="Select Date" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="reservation_date" type="date" min="<?= date('Y-m-d'); ?>" max="2023-12-31" name="reservation_date" placeholder="Select Date" required>
         </div>
         <div class="w-full mb-4">
             <label for="reservation_time"></label>
-            <input class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="reservation_time" type="time" min="15:00" max="21:00" name="reservation_time" placeholder="Select Time" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="reservation_time" type="time" min="15:00" max="21:00" name="reservation_time" placeholder="Select Time" required>
         </div>
         <div class="w-full mb-4">
             <label for="special_request"></label>
-            <textarea class="p w-full py-5 px-4 outline-none placeholder:text-[#5F5F5F]" id="special_request" type="textarea" name="special_request" maxlength="300" placeholder="Special Request (Optional)"></textarea>
+            <textarea class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="special_request" type="textarea" name="special_request" maxlength="300" placeholder="Special Request (Optional)"></textarea>
         </div>
         <button class="p w-full py-6 px-4 bg-red mb-4 text-white font-bold hover:opacity-60 transition transition-all duration-500" type="submit">RESERVE A TABLE</button>
     </form>
