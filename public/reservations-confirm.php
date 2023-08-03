@@ -19,7 +19,7 @@
         <div class="absolute top-1/2 right-0 transform -translate-y-1/2 z-0 collapse lg:visible">
             <img src="images/sushi-chopstick.png" alt="Chopsticks holding salmon maki sushi.">
         </div>
-        <div class="max-w-screen-2xl mx-auto px-5 lg:px-16">
+        <div class="max-w-screen-2xl mx-auto px-5 md:px-16">
             <div class="grid grid-cols-4 lg:grid-cols-12 pt-10 lg:py-56">
                 <div class="col-span-4 lg:col-span-6 z-10">
                     <div class="my-10 lg:my-0">
