@@ -1,6 +1,6 @@
 <section class="text-white bg-black py-20 md:py-32">
     <div class="max-w-screen-2xl mx-auto">
-        <h2 class="h2 text-center mb-10 md:mb-32">Omakase Menu</h2>
+        <h2 class="h2 text-center mb-10 md:mb-32 stroke">Omakase Menu</h2>
         <!-- HANA lunch -->
         <div class="flex flex-wrap justify-center items-center">
             <div class="basis-full lg:basis-1/2 order-1">
