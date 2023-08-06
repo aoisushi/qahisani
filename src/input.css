@@ -15,6 +15,7 @@
 
 * {
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 /* party size dropdown select icon */

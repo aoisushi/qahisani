@@ -1,7 +1,7 @@
 <header class="bg-black text-white">
     <nav class="flex py-[28px] items-center justify-between w-[92%] mx-auto">
         <!-- Company Logo -->
-        <a href="#"><img src="images/logo_white_red.svg" width="90"></a>
+        <a href="index.php"><img src="images/logo_white_red.svg" width="90"></a>
 
         <!-- menu -->
         <div class="flex overflow-hidden">  <!-- This flex is for contained the nav and the menu -->
@@ -12,7 +12,7 @@
                     <li><a class="text-mdhamtext font-nunito p-2 text-[22px] hover:text-[#FFE4E0] hover-stroke" href="#menu">Menu</a></li>
                     <li><a class="text-mdhamtext font-nunito p-2 text-[22px] hover:text-[#FFE4E0] hover-stroke" href="#gallery">Gallery</a></li>
                     <li><a class="text-mdhamtext font-nunito p-2 text-[22px] hover:text-[#FFE4E0] hover-stroke" href="#contact">Contact</a></li>
-                    <li><button class="font-nunito bg-[#D63241] text-[22px] text-white px-[80px] py-[15px] md:px-[20px] md:py-[10px] hover:bg-[#FFE4E0] hover:text-black ease-in-out duration-300">Reservation</button></li>
+                    <li><a href="reservations.php"><button class="font-nunito bg-[#D63241] text-[22px] text-white px-[80px] py-[15px] mx-2 md:px-[20px] md:py-[10px] hover:bg-[#FFE4E0] hover:text-black ease-in-out duration-300">Reservation</button></a></li>
                 </ul>
             </div>
             <!-- hamburger icon -->
