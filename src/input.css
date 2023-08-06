@@ -16,6 +16,11 @@
     margin: auto;
 }
 
+a {
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
 /* mobile media q */
 h1, .h1 {
     font-size: 28px;
@@ -45,6 +50,40 @@ p, .p {
     font-size: 17px;
     font-family: var(--nunito);
     font-weight: var(--regular);
+}
+
+/* The salmon */
+.stroke {
+    position: relative;
+}
+
+.stroke::before {
+    content: "";
+    position: absolute;
+    background-image: url(../public/images/stoke.svg);
+    background-repeat: no-repeat;
+    left: 42%;
+    top: 80%;
+    width: 100%;
+    height: 100%;
+    /* transform: translate(-50%, -50%); */
+}
+
+/* The slider from swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-wrapper {
+    padding: 50px 0;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 

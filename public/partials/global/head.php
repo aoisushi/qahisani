@@ -9,4 +9,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <?php require(get_path('public/partials/global/tailwind.php')); ?>
     <link rel="stylesheet" href="../src/input.css">
+    <!-- For the slider  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
