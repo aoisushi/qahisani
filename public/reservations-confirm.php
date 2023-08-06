@@ -37,7 +37,7 @@
                         </div>
 
                         <!-- Go back home btn -->
-                        <a href="index.php" class="p bg-white text-black uppercase flex justify-center items-center gap-2 font-bold hover:opacity-60 transition transition-all duration-500" title="Return to homepage">
+                        <a href="index.php" class="p bg-white text-black uppercase flex justify-center items-center gap-2 font-bold hover:opacity-60 transition-all duration-500" title="Return to homepage">
                             <img src="images/home-icon.svg" alt="Home icon">
                             <p class="py-6" href="">Go Back Home</p>
                         </a>

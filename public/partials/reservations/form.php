@@ -51,6 +51,6 @@
             <label for="special_request"></label>
             <textarea class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="special_request" type="textarea" name="special_request" maxlength="300" placeholder="Special Request (Optional)"></textarea>
         </div>
-        <button class="p w-full py-6 px-4 bg-red mb-4 text-white font-bold hover:opacity-60 transition transition-all duration-500" type="submit">RESERVE A TABLE</button>
+        <button class="p w-full py-6 px-4 bg-red mb-4 text-white font-bold hover:opacity-60 transition-all duration-500" type="submit">RESERVE A TABLE</button>
     </form>
     </div>

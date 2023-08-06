@@ -12,7 +12,7 @@
                         <h3 class="h1">HANA Omakase</h3>
                         <p class="h1">$120</p>
                     </div>
-                    <p class="h4 font-nunito font-normal italic mb-12">Lunch Menu</p>
+                    <p class="mdtext-menutext md:mdh4 font-nunito font-normal italic mb-12">Lunch Menu</p>
                     <ul class="text-menutext font-nunito">
                         <li>Sakura Salad</li>
                         <li>Tori Katsu</li>
@@ -35,7 +35,7 @@
                         <h3 class="h1">YUKI Omakase</h3>
                         <p class="h1">$140</p>
                     </div>
-                    <p class="h4 font-nunito font-normal italic mb-12">Lunch Menu</p>
+                    <p class="text-menutext md:mdh4 font-nunito font-normal italic mb-12">Lunch Menu</p>
                     <ul class="text-menutext font-nunito">
                         <li>Appetizer Platter</li>
                         <li>Grilled Miso Black Cod</li>
@@ -58,7 +58,7 @@
                         <h3 class="h1">HANA Omakase</h3>
                         <p class="h1">$180</p>
                     </div>
-                    <p class="h4 font-nunito font-normal italic mb-12">Dinner Menu</p>
+                    <p class="text-menutext md:mdh4 font-nunito font-normal italic mb-12">Dinner Menu</p>
                     <ul class="text-menutext font-nunito">
                         <li>Chef's Signature Appetizer</li>
                         <li>Sakura Sushi Selection</li>
@@ -81,7 +81,7 @@
                         <h3 class="h1">YUKI Omakase</h3>
                         <p class="h1">$220</p>
                     </div>
-                    <p class="h4 font-nunito font-normal italic mb-12">Dinner Menu</p>
+                    <p class="text-menutext md:mdh4 font-nunito font-normal italic mb-12">Dinner Menu</p>
                     <ul class="text-menutext font-nunito">
                         <li>Amuse-Bouche</li>
                         <li>Assorted Sushi Platter</li>
@@ -101,7 +101,7 @@
             <div class="grid grid-cols-4 lg:grid-cols-6 grid-rows-6 gap-x-5 basis-full lg:basis-1/2 bg-menu-card bg-cover h-500 px-5 md:px-16 lg:pl-5 lg:pr-16 order-2">
                 <div class="col-span-4 lg:col-start-2 lg:col-span-5 row-start-2 row-span-4 my-auto lg:-mt-4">
                     <h3 class="h1">Appetizers</h3>
-                    <p class="h4 font-nunito font-normal italic mb-12">Salads and Tapas</p>
+                    <p class="text-menutext md:mdh4 font-nunito font-normal italic mb-12">Salads and Tapas</p>
                     <ul class="text-menutext font-nunito">
                         <li>
                             <div class="flex justify-between">
@@ -141,7 +141,7 @@
             <div class="grid grid-cols-4 lg:grid-cols-6 grid-rows-6 gap-x-5 basis-full lg:basis-1/2 bg-menu-card bg-cover h-500 px-5 md:px-16 lg:pr-5 lg:pl-16 order-2 lg:order-1">
                 <div class="col-span-4 lg:col-start-1 lg:col-span-5 row-start-2 row-span-4 my-auto lg:-mt-4">
                     <h3 class="h1">Drinks</h3>
-                    <p class="h4 font-nunito font-normal italic mb-12">Alcoholic Menu</p>
+                    <p class="text-menutext md:mdh4 font-nunito font-normal italic mb-12">Alcoholic Menu</p>
                     <ul class="text-menutext font-nunito">
                         <li>
                             <div class="flex justify-between">
