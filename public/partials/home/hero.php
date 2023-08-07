@@ -1,5 +1,5 @@
 <section>
-    <div class="bg-[url('/public/images/Banner-Video.gif')] bg-no-repeat bg-cover bg-center h-[684px] w-100 flex flex-col text-center items-center justify-center md:h-[836px]">
+    <div class="bg-[url('/public/images/Banner-Video.gif')] bg-no-repeat bg-cover bg-center h-[684px] w-100 flex flex-col text-center items-center justify-center md:h-[836px] hero">
         <div class="items-center">
             <img class="inline-flex w-[300px]" src="/public/images/hisani_logo.svg">
             <p class="h4 text-black text-center md:text-white">Where Artistry<br> Meets Cuisine</p>

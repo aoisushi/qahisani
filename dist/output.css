@@ -554,6 +554,10 @@ video {
   position: static;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -586,12 +590,12 @@ video {
   top: 50%;
 }
 
-.top-\[-100\%\] {
-  top: -100%;
+.top-\[-600\%\] {
+  top: -600%;
 }
 
-.top-\[9\%\] {
-  top: 9%;
+.top-\[91\%\] {
+  top: 91%;
 }
 
 .z-0 {
@@ -604,6 +608,10 @@ video {
 
 .z-30 {
   z-index: 30;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .order-1 {
@@ -624,11 +632,6 @@ video {
 
 .row-start-2 {
   grid-row-start: 2;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .mx-\[20px\] {
@@ -824,6 +827,10 @@ video {
   max-width: 1536px;
 }
 
+.max-w-screen-md {
+  max-width: 768px;
+}
+
 .basis-full {
   flex-basis: 100%;
 }
@@ -844,6 +851,18 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.scroll-mt-5 {
+  scroll-margin-top: 1.25rem;
+}
+
+.scroll-mt-6 {
+  scroll-margin-top: 1.5rem;
+}
+
+.scroll-mt-24 {
+  scroll-margin-top: 6rem;
 }
 
 .appearance-none {
@@ -1256,6 +1275,14 @@ p, .p {
   font-weight: var(--regular);
 }
 
+/* Hero banner */
+
+.hero,
+.reservations, 
+.reservations-confirm {
+  margin-top: 90px;
+}
+
 /* The salmon */
 
 .stroke {
@@ -1478,6 +1505,14 @@ p, .p {
     margin-bottom: 8rem;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1557,6 +1592,18 @@ p, .p {
     padding-bottom: 8rem;
   }
 
+  .md\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
   .md\:text-white {
     color: var(--white);
   }
@@ -1614,6 +1661,26 @@ p, .p {
 
   .lg\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .lg\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .lg\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .lg\:mt-2\.5 {
+    margin-top: 0.625rem;
+  }
+
+  .lg\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:h-500 {
@@ -1696,5 +1763,9 @@ p, .p {
 
   .lg\:pt-6 {
     padding-top: 1.5rem;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 }

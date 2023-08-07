@@ -61,6 +61,13 @@ p, .p {
     font-weight: var(--regular);
 }
 
+/* Hero banner */
+.hero,
+.reservations, 
+.reservations-confirm {
+    margin-top: 90px;
+}
+
 /* The salmon */
 .stroke {
     position: relative;

@@ -1,4 +1,4 @@
-<section id="about">
+<section id="about" class="scroll-mt-24">
     <div class="bg-[url('/public/images/about_photo.jpg')]  bg-no-repeat bg-cover bg-center flex items-center justify-center">
         <div class="bg-black opacity-90 px-[20px] pt-[80px] pb-[60px]  md:py-[120px] md:px-[171px]">
             <div>

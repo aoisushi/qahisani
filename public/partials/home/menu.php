@@ -1,4 +1,4 @@
-<section id="menu" class="text-white bg-black py-20 md:py-32">
+<section id="menu" class="text-white bg-black py-20 md:py-32 scroll-mt-24">
     <div class="max-w-screen-2xl mx-auto">
         <h2 class="h2 text-center mb-10 md:mb-32 stroke">Omakase Menu</h2>
         <!-- HANA lunch -->

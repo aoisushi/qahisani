@@ -1,4 +1,4 @@
-<section id="gallery" class="bg-black">
+<section id="gallery" class="bg-black scroll-mt-24">
     <div class="pt-[80px] pb-[80px]">
         <h2 class="h2 text-white text-center stroke">Gallery</h2>
     </div>
