@@ -41,11 +41,11 @@
         </div>
         <div class="w-full mb-4">
             <label for="reservation_date"></label>
-            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="reservation_date" type="date" min="<?= date('Y-m-d'); ?>" max="2023-12-31" name="reservation_date" placeholder="Select Date" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="reservation_date" type="text" onfocus="(this.type='date')" onmouseover="(this.type = 'date')" onblur="updateDatePlaceholder(this)" min="<?= date('Y-m-d'); ?>" max="2023-12-31" name="reservation_date" placeholder="Select Date" required>
         </div>
         <div class="w-full mb-4">
             <label for="reservation_time"></label>
-            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="reservation_time" type="time" min="15:00" max="21:00" name="reservation_time" placeholder="Select Time" required>
+            <input class="p w-full py-5 px-4 outline-none placeholder:text-gray" id="reservation_time" type="text" onfocus="(this.type='time')" onmouseover="(this.type = 'time')" onblur="updateTimePlaceholder(this)" min="15:00" max="21:00" name="reservation_time" placeholder="Select Time" required>
         </div>
         <div class="w-full mb-4">
             <label for="special_request"></label>
