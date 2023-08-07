@@ -21,15 +21,30 @@
             </div>
             <!-- hamburger icon -->
             <div>
-                <ion-icon onclick="openMenu(this)" class="text-white cursor-pointer md:hidden" size="large" name="menu"></ion-icon>
+                <ion-icon onclick="toggleMenu(this)" class="text-white cursor-pointer md:hidden" size="large" name="menu"></ion-icon>
             </div>
         </div>
     </nav>
     <script>
-        const navLinks = document.querySelector('.nav-links')
-        function openMenu(e){
-            e.name = e.name === 'menu' ? 'close' : 'menu'
-            navLinks.classList.toggle('top-[91%]')
+        const navLinks = document.querySelector('.nav-links');
+        const menuIcon = document.querySelector('ion-icon');
+
+        // Toggle menu
+        function toggleMenu(icon) {
+            navLinks.classList.toggle('top-[91%]');
+            icon.name = icon.name === 'menu' ? 'close' : 'menu';
         }
+
+        // Close menu
+        function closeMenu() {
+            navLinks.classList.remove('top-[91%]');
+            menuIcon.name = 'menu'; // Change icon back to burger menu
+        }
+
+        // Call close menu function after clicking a link
+        const links = navLinks.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
     </script>
 </header>
