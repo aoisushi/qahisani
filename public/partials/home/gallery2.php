@@ -9,8 +9,8 @@
             <div class="swiper-slide"><img src="/public/images/gallery-sushi- (2).jpg"></div>
             <div class="swiper-slide"><img src="/public/images/gallery-sushi- (3).jpg"></div>
             <div class="swiper-slide"><img src="/public/images/gallery-sushi- (4).jpg"></div>
-            <div class="swiper-slide"><img src="/public/images/gallery-sushi- (5).png"></div>
-            <div class="swiper-slide"><img src="/public/images/gallery-sushi- (6).png"></div>
+            <div class="swiper-slide"><img src="/public/images/gallery-sushi--(6).jpg"></div>
+            <div class="swiper-slide"><img src="/public/images/gallery-sushi--(7).jpg"></div>
         </div>
     <div class="swiper-pagination"></div>
   </div>
