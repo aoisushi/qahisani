@@ -8,7 +8,7 @@ module.exports = {
         black: 'var(--black)',
         white: 'var(--white)',
         gray: 'var(--gray)',
-        galleryBlack: 'var(--galleryBlack)',
+        galleryblack: 'var(--galleryblack)',
         },
         fontFamily: {
             'lora': ['Lora', 'serif'],
