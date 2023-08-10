@@ -38,11 +38,11 @@
                 <h4 class="h4 mb-[52px]">Contact</h4>
                 <div class="mb-[40px]">
                     <p class="p">Phone</p>
-                    <p class="p">(604) 434 - 5734</p>
+                    <p class="p"><a href="tel:+16044345734">(604) 434 - 5734</a></p>
                 </div>
                 <div>
                     <p class="p">E-mail</p>
-                    <p class="p">info@hisani.ca</p>
+                    <p class="p"><a href="mailto:info@hisani.ca">info@hisani.ca</a></p>
                 </div>
             </div>
         </div>
